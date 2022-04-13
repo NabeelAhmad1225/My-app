@@ -1,24 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './component/Navbar';
+import BoxColor from './component/BoxColor';
+import BgColor from './component/BgColor';
+import DropDownList from './component/DropDownList';
+import ItemList from './component/ItemList';
+import Parent from './component/Parent';
+import FormUsingReact from './component/Form';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <BoxColor />
+    // <BgColor />
+    // <DropDownList />
+    // <ItemList />
+    // <Parent />
+    <FormUsingReact />
   );
 }
 
